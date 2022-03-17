@@ -1,0 +1,26 @@
+#service-links ul li a{
+    color: #0A2133;
+}
+
+#service-links ul li a:hover{
+    color: #ffa500;
+}
+
+#contact-home{
+    height: 30rem;
+    /* margin-bottom: 5rem; */
+    background-image: url(../img/cert.jpg);
+    background-repeat: no-repeat;
+}
+#contact-intro{
+    margin-top: 3rem;
+}
+
+a{
+    color: #ff4500;
+}
+
+.card-footer a:hover{
+    text-decoration:underline !important;
+    color: #0A2133;
+}

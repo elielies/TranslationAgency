@@ -1,0 +1,42 @@
+#contact-home{
+    height: 25rem;
+    /* margin-bottom: 5rem; */
+    background-image: url(../img/lap.jpg);
+    background-repeat: no-repeat;
+}
+#contact-intro{
+    margin-top: 3rem;
+}
+
+/* .submit-btn{
+    margin-left: 0.5rem;
+} */
+
+input[type=name], form input[type="phone"], form input[type="email"], #message, #formFileSm{
+	border: none;
+	color: #808080;
+	/* font-family: 'Montserrat', sans-serif; */
+	font-weight: bold;
+	background-color: #E6E6E6;
+}
+
+form input[type="name"]:focus,
+form input[type="phone"]:focus,
+form input[type="email"]:focus,
+btn-primary:focus, form textarea:focus
+ {
+	color: gray;
+    box-shadow:inset 0 0 0 2px #ffa500; outline:none;
+    border:0;
+}
+
+.form-control:focus {
+	background-color: #E6E6E6;
+    box-shadow:inset 0 0 0 2px #ffa500; outline:none;
+	min-height: 17%;
+}
+
+#map iframe {
+	margin: 0;
+	display: block;
+}

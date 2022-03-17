@@ -1,0 +1,10 @@
+#about-header{
+    background-image: url(../img/team.jpg);
+    /* width: 100%; */
+    background-repeat: no-repeat;
+    opacity: 1.5;
+    
+}
+#header-intro{
+    color: rgb(255, 255, 255);
+}
